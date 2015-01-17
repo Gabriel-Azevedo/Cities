@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  WebViewController.h
 //  Cities
 //
 //  Created by Gabriel Borri de Azevedo on 1/16/15.
@@ -7,11 +7,10 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "City.h"
 
-@interface ViewController : UIViewController
+@interface WebViewController : UIViewController
 
-
--(void)updateTitle:(NSString *)name;
+@property City *city;
 
 @end
-
